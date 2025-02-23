@@ -25,7 +25,7 @@ namespace Cookies_19795391
             Response.Cookies["bytNumberInStock"].Value = bytNumberInStock.Text;
             Response.Cookies["bytNumberOnOrder"].Value = bytNumberOnOrder.Text;
             Response.Cookies["bytReorderLevel"].Value = bytReorderLevel.Text;
-            Response.Redirect("ProductConfirmCookies.aspx");
+            Response.Redirect("Cookies2.aspx");
         }
     }
 }
